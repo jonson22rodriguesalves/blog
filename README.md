@@ -3,14 +3,14 @@
 Blog moderno e responsivo desenvolvido com Angular 19, TypeScript, HTML e CSS, permitindo criação, edição e visualização de posts com experiência de usuário fluida.
 
 🛠️ Tecnologias Utilizadas
-Tecnologia	Versão	Uso no Projeto
-Angular	19.2.5	Framework frontend SPA
-TypeScript	5.x	Linguagem principal
-RxJS	7.x	Gerenciamento de estados
-Angular Material	19.x	Componentes UI
-Node.js	22.14.0	Ambiente de execução
-npm	10.9.2	Gerenciador de pacotes
-
+Tecnologia	Versão	Uso no Projeto.
+Angular	19.2.5	Framework frontend SPA.
+TypeScript	5.x	Linguagem principal.
+RxJS	7.x	Gerenciamento de estados.
+Angular Material	19.x	Componentes UI.
+Node.js	22.14.0	Ambiente de execução.
+npm	10.9.2	Gerenciador de pacotes.
+==============================================================================================================================================================================
 ✨ Destaques
 Interface Responsiva com Dark/Light Mode
 
@@ -46,3 +46,4 @@ src/
 │   
 ├── assets/              # Imagens, fonts, estilos globais  
 └── environments/        # Configurações de dev/prod  
+==============================================================================================================================================================================
