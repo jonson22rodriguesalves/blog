@@ -1,27 +1,48 @@
-# Blog
+# Projeto Blog em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Blog moderno e responsivo desenvolvido com Angular 19, TypeScript, HTML e CSS, permitindo criação, edição e visualização de posts com experiência de usuário fluida.
 
-## Development server
+🛠️ Tecnologias Utilizadas
+Tecnologia	Versão	Uso no Projeto
+Angular	19.2.5	Framework frontend SPA
+TypeScript	5.x	Linguagem principal
+RxJS	7.x	Gerenciamento de estados
+Angular Material	19.x	Componentes UI
+Node.js	22.14.0	Ambiente de execução
+npm	10.9.2	Gerenciador de pacotes
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+✨ Destaques
+Interface Responsiva com Dark/Light Mode
 
-## Code scaffolding
+Arquitetura Modular com Lazy Loading
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Mock API via JSON Server
 
-## Build
+PWA com suporte offline
+==============================================================================================================================================================================
+🚀 Como Executar o Projeto?
+Pré-requisitos:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Node.js (v22.14.0)
 
-## Running unit tests
+npm (v10.9.2)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular CLI (npm install -g @angular/cli)
 
-## Running end-to-end tests
+Instalação:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+git clone [URL_DO_REPO]
+cd projeto-blog
+npm install
+ng serve
 
-## Further help
+Acesse: http://localhost:4200
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+src/  
+├── app/  
+│   ├── components/      # Componentes reutilizáveis  
+│   ├── data/            # Serviços, modelos e mock data  
+│   ├── pages/           # Páginas (Home, Posts, Admin)  
+│   
+├── assets/              # Imagens, fonts, estilos globais  
+└── environments/        # Configurações de dev/prod  
